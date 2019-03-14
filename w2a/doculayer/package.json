@@ -1,0 +1,11 @@
+{
+  "name": "w2a",
+  "version": "1.0.0",
+  "description": "Protractor end to end test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Seraus",
+  "license": "ISC"
+}
