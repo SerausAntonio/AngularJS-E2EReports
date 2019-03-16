@@ -9,7 +9,7 @@ describe('Doculayer website',function(){
 
     afterEach(function(){
 
-
+        console.log('Ending .....');
 
     })
     it ('should return a pagetitle',function(){
