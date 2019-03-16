@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Should be a title on HDFC Bank page!",
+    "uid" : "8fdce32d2c4d5a81",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552751113999,
+      "stop" : 1552751120162,
+      "duration" : 6163
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to handle multiple windows on HDFC Bank!",
+    "uid" : "a7a0762a3dcd3206",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552751120163,
+      "stop" : 1552751125191,
+      "duration" : 5028
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to switch between frames",
+    "uid" : "3e2b6fce686ad356",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552751125215,
+      "stop" : 1552751129247,
+      "duration" : 4032
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to handle alerts",
+    "uid" : "bd915dd946cb1ac4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552751129266,
+      "stop" : 1552751141526,
+      "duration" : 12260
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to test list elements",
+    "uid" : "2a9c2dd20a5b3e2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552751141539,
+      "stop" : 1552751154605,
+      "duration" : 13066
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

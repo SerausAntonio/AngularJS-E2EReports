@@ -1,0 +1,61 @@
+{
+  "uid" : "3e2b6fce686ad356",
+  "name" : "Should be able to switch between frames",
+  "fullName" : "Handling IFrames.Should be able to switch between frames",
+  "historyId" : "eb828afedef6ffb56ade0a6ba51e7900",
+  "time" : {
+    "start" : 1552751125215,
+    "stop" : 1552751129247,
+    "duration" : 4032
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a84c35a6256e06",
+      "name" : "Screenshot",
+      "source" : "3a84c35a6256e06.png",
+      "type" : "image/png",
+      "size" : 169923
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling IFrames"
+  }, {
+    "name" : "testClass",
+    "value" : "Handling IFrames"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be able to switch between frames"
+  }, {
+    "name" : "package",
+    "value" : "Handling IFrames"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e2b6fce686ad356.json",
+  "parameterValues" : [ ]
+}

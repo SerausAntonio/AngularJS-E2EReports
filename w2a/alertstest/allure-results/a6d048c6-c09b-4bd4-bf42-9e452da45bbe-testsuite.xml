@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552751129266' stop='1552751141527'>
+    <name>Handling Alerts</name>
+    <title>Handling Alerts</title>
+    <test-cases>
+        <test-case start='1552751129266' status='passed' stop='1552751141526'>
+            <name>Should be able to handle alerts</name>
+            <title>Should be able to handle alerts</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6955824c-4df4-4384-b7bf-3c4915ccff22-attachment.png' type='image/png' size='189109'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

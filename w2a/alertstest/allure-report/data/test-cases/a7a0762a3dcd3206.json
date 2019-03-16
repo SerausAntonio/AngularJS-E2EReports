@@ -1,0 +1,61 @@
+{
+  "uid" : "a7a0762a3dcd3206",
+  "name" : "Should be able to handle multiple windows on HDFC Bank!",
+  "fullName" : "Handling Windows.Should be able to handle multiple windows on HDFC Bank!",
+  "historyId" : "fb27ac5eda0e892a97a9bf186fc8734",
+  "time" : {
+    "start" : 1552751120163,
+    "stop" : 1552751125191,
+    "duration" : 5028
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "188ac2127ba02555",
+      "name" : "Screenshot",
+      "source" : "188ac2127ba02555.png",
+      "type" : "image/png",
+      "size" : 314617
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "testClass",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be able to handle multiple windows on HDFC Bank!"
+  }, {
+    "name" : "package",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7a0762a3dcd3206.json",
+  "parameterValues" : [ ]
+}

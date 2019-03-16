@@ -1,0 +1,61 @@
+{
+  "uid" : "8fdce32d2c4d5a81",
+  "name" : "Should be a title on HDFC Bank page!",
+  "fullName" : "Handling Windows.Should be a title on HDFC Bank page!",
+  "historyId" : "26fefa3748c2b99f4751c0f74803aa3d",
+  "time" : {
+    "start" : 1552751113999,
+    "stop" : 1552751120162,
+    "duration" : 6163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "567aabb93c7c2ba3",
+      "name" : "Screenshot",
+      "source" : "567aabb93c7c2ba3.png",
+      "type" : "image/png",
+      "size" : 375956
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "testClass",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be a title on HDFC Bank page!"
+  }, {
+    "name" : "package",
+    "value" : "Handling Windows"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fdce32d2c4d5a81.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "2a9c2dd20a5b3e2b",
+  "name" : "Should be able to test list elements",
+  "fullName" : "Hackermoon testing list.Should be able to test list elements",
+  "historyId" : "cb005764a0821457f551078386755f79",
+  "time" : {
+    "start" : 1552751141539,
+    "stop" : 1552751154605,
+    "duration" : 13066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "358600d599951456",
+      "name" : "Screenshot",
+      "source" : "358600d599951456.png",
+      "type" : "image/png",
+      "size" : 68979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Hackermoon testing list"
+  }, {
+    "name" : "testClass",
+    "value" : "Hackermoon testing list"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be able to test list elements"
+  }, {
+    "name" : "package",
+    "value" : "Hackermoon testing list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a9c2dd20a5b3e2b.json",
+  "parameterValues" : [ ]
+}

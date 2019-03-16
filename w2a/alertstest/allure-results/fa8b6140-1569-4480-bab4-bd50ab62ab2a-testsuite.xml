@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552751113998' stop='1552751125192'>
+    <name>Handling Windows</name>
+    <title>Handling Windows</title>
+    <test-cases>
+        <test-case start='1552751113999' status='passed' stop='1552751120162'>
+            <name>Should be a title on HDFC Bank page!</name>
+            <title>Should be a title on HDFC Bank page!</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba65d75e-d4e5-4de5-b866-a9c4f7fbf781-attachment.png' type='image/png' size='375956'/>
+            </attachments>
+        </test-case>
+        <test-case start='1552751120163' status='passed' stop='1552751125191'>
+            <name>Should be able to handle multiple windows on HDFC Bank!</name>
+            <title>Should be able to handle multiple windows on HDFC Bank!</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='493e7c96-8e01-4c06-affb-9542340f0f6f-attachment.png' type='image/png' size='314617'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

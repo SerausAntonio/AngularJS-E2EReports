@@ -10,7 +10,7 @@ describe('Hackermoon testing list',function(){
         console.log("Ending......");
     })
 
-    it ('Should be able to test list elements',function(){
+   it ('Should be able to test list elements',function(){
 
         browser.getTitle().then(function(tekst){
 
@@ -28,12 +28,12 @@ describe('Hackermoon testing list',function(){
             }
         })
 
-        let el = element(by.buttonText('Show all responses'));
+        // let el = element(by.buttonText('Show all responses'));
        
-        browser.executeScript(function() {arguments[0].scrollIntoView();},
-        el.getWebElement());
+        // browser.executeScript(function() {arguments[0].scrollIntoView();},
+        // el.getWebElement());
         
-        el.click();
+        // el.click();
 
         browser.sleep(6000);
     })

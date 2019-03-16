@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Handling Windows",
+    "children" : [ {
+      "name" : "Should be a title on HDFC Bank page!",
+      "uid" : "8fdce32d2c4d5a81",
+      "parentUid" : "9ebafcd6de73f523ac27ef4b59e6000f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552751113999,
+        "stop" : 1552751120162,
+        "duration" : 6163
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should be able to handle multiple windows on HDFC Bank!",
+      "uid" : "a7a0762a3dcd3206",
+      "parentUid" : "9ebafcd6de73f523ac27ef4b59e6000f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552751120163,
+        "stop" : 1552751125191,
+        "duration" : 5028
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ebafcd6de73f523ac27ef4b59e6000f"
+  }, {
+    "name" : "Handling IFrames",
+    "children" : [ {
+      "name" : "Should be able to switch between frames",
+      "uid" : "3e2b6fce686ad356",
+      "parentUid" : "437009dd7500aea7e65e2cf11ec01aeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552751125215,
+        "stop" : 1552751129247,
+        "duration" : 4032
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "437009dd7500aea7e65e2cf11ec01aeb"
+  }, {
+    "name" : "Handling Alerts",
+    "children" : [ {
+      "name" : "Should be able to handle alerts",
+      "uid" : "bd915dd946cb1ac4",
+      "parentUid" : "a6397e37f6e6d07df5eb55d1a624d974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552751129266,
+        "stop" : 1552751141526,
+        "duration" : 12260
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6397e37f6e6d07df5eb55d1a624d974"
+  }, {
+    "name" : "Hackermoon testing list",
+    "children" : [ {
+      "name" : "Should be able to test list elements",
+      "uid" : "2a9c2dd20a5b3e2b",
+      "parentUid" : "f5c503fdec2620711641325da048114a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552751141539,
+        "stop" : 1552751154605,
+        "duration" : 13066
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f5c503fdec2620711641325da048114a"
+  } ]
+}

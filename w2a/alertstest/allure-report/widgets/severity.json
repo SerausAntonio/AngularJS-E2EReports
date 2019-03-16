@@ -1,0 +1,51 @@
+[ {
+  "uid" : "3e2b6fce686ad356",
+  "name" : "Should be able to switch between frames",
+  "time" : {
+    "start" : 1552751125215,
+    "stop" : 1552751129247,
+    "duration" : 4032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7a0762a3dcd3206",
+  "name" : "Should be able to handle multiple windows on HDFC Bank!",
+  "time" : {
+    "start" : 1552751120163,
+    "stop" : 1552751125191,
+    "duration" : 5028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd915dd946cb1ac4",
+  "name" : "Should be able to handle alerts",
+  "time" : {
+    "start" : 1552751129266,
+    "stop" : 1552751141526,
+    "duration" : 12260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fdce32d2c4d5a81",
+  "name" : "Should be a title on HDFC Bank page!",
+  "time" : {
+    "start" : 1552751113999,
+    "stop" : 1552751120162,
+    "duration" : 6163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a9c2dd20a5b3e2b",
+  "name" : "Should be able to test list elements",
+  "time" : {
+    "start" : 1552751141539,
+    "stop" : 1552751154605,
+    "duration" : 13066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

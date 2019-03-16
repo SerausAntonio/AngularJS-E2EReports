@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552751141539' stop='1552751154605'>
+    <name>Hackermoon testing list</name>
+    <title>Hackermoon testing list</title>
+    <test-cases>
+        <test-case start='1552751141539' status='passed' stop='1552751154605'>
+            <name>Should be able to test list elements</name>
+            <title>Should be able to test list elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ed500aa1-6c28-4db3-87b5-2362fe0463e5-attachment.png' type='image/png' size='68979'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,61 @@
+{
+  "uid" : "bd915dd946cb1ac4",
+  "name" : "Should be able to handle alerts",
+  "fullName" : "Handling Alerts.Should be able to handle alerts",
+  "historyId" : "a024dbbc171f689898e6040aae63a019",
+  "time" : {
+    "start" : 1552751129266,
+    "stop" : 1552751141526,
+    "duration" : 12260
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4dfbfa8c70135855",
+      "name" : "Screenshot",
+      "source" : "4dfbfa8c70135855.png",
+      "type" : "image/png",
+      "size" : 189109
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling Alerts"
+  }, {
+    "name" : "testClass",
+    "value" : "Handling Alerts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be able to handle alerts"
+  }, {
+    "name" : "package",
+    "value" : "Handling Alerts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd915dd946cb1ac4.json",
+  "parameterValues" : [ ]
+}
