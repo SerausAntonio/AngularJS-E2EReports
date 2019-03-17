@@ -25,16 +25,16 @@ describe('Test Automation of a banking app',function(){
         var selectName = element(by.id('userSelect'));
 
         selectName.click();
-        // element.all(by.css('#userSelect option')).then(function(items){
-
+        element.all(by.css('#userSelect option')).then(function(items){
+                   
         //     console.log(items.length);
         //     expect(items.length).toBe(6);
         //     expect(items[2].getText()).toBe('Harry Potter');
         //     items[2].click();
             
-        // })
-
-        var selectedName = element(by.css('option[value="2"]'));
+     //    });
+       
+     var selectedName = element(by.css('option[value="2"]'));
         selectedName.click();
 
 
@@ -51,5 +51,4 @@ describe('Test Automation of a banking app',function(){
 
     })
 
-   
-})
+})   

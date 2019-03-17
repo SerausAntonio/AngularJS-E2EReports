@@ -1,0 +1,23 @@
+{
+
+"testsiteurl":"http://gmail.com",
+
+"locators": {
+
+    "loginPage": {
+
+        "username": "//*[@id='identifierId']",
+        "volgende": "span.RveJvd.snByac"
+    }
+
+},
+
+    "userdetails": {
+        "username1": "trainer@w2automation.com",
+        "password1": "Raman123",
+
+        "username2": "java@w2automation.com",
+        "password2": "Raman123"
+    }
+
+}
