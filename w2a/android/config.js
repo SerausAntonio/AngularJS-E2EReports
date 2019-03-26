@@ -1,36 +1,11 @@
-let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
-
-directConnect: true;
-ignoreSynchronization = true,
-
 exports.config = {
-  framework: 'jasmine2',
-  jasmineNodeOpts: {
-    showColors: true,
-    silent: true,
-    defaultTimeoutInterval: 360000,
-    print: function () {
-    }
-  },
-  
-  specs: [
-    './pages/BankManagerLoginTest_spec.js'
-  ],
+  seleniumAddress: 'http://localhost:4723/wd/hub',
+
   capabilities: {
-    browserName: 'chrome',
-    'chromeOptions': {
-      args: ['--test-type']
-    }
+    'browserName': 'chrome',
+    'platformName': 'android',
+    'deviceName': 'Samsung J7'
+  
   },
-  logLevel: 'WARN',
-  onPrepare: function () {
-    jasmine.getEnv().addReporter(new SpecReporter({
-      spec: {
-        displayStacktrace: true
-      },
-      summary: {
-        displayDuration: false
-      }
-    }));
-  }
+  specs: ['../cwztests/cwztest.js']
 };
