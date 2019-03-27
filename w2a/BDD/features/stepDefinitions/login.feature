@@ -7,15 +7,13 @@ Feature: Login
         Given user navigates to facebook website
         When user validates the homepage title        
 
-    Scenario: In order to verify login to facebook as a Valid user
+    Scenario Outline: In order to verify login to facebook as a Valid user
         
         Then user entered "valid" username
         Then user entered "valid" password
         Then user should "be" successfully logged in
 
- Scenario: In order to verify login to facebook as Invalid user
-
-        
-        Then user entered "invalid" username
-        Then user entered "invalid" password
-        Then user should "not" successfully logged in
+  Examples:
+  | username | password | loginstatus |
+  | Antonio  | password123 | be  |
+  | Antonio  | password123 | not |
