@@ -1,0 +1,346 @@
+[
+  {
+    "description": "    In order to perform succesful Login\n    As a user\n    I want to enter correct username and password",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features\\stepDefinitions\\login.feature",
+    "elements": [
+      {
+        "id": "login;in-order-to-verify-login-to-facebook-as-a-valid-user",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "In order to verify login to facebook as a Valid user",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigates to facebook website",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user entered \"Antonio\" username",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user entered \"password123\" password",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should \"be\" successfully logged in",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;in-order-to-verify-login-to-facebook-as-a-valid-user",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "In order to verify login to facebook as a Valid user",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigates to facebook website",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user entered \"Antonio\" username",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user entered \"password123\" password",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should \"not\" successfully logged in",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    In order to perform succesful Login\n    As a user\n    I want to enter correct username and password",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features\\stepDefinitions\\loginProd.feature",
+    "elements": [
+      {
+        "id": "login;in-order-to-verify-login-to-facebook-on-production",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "In order to verify login to facebook on Production",
+        "tags": [
+          {
+            "name": "@prod",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigates to facebook website",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user entered \"<username>\" username",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user entered \"<password>\" password",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Country",
+                      "Code"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "101"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "102"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "103"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user validates the captcha image",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should \"<loginstatus>\" successfully logged in",
+            "match": {
+              "location": "Seraus\\angularjs\\w2a\\BDD\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,23 @@
-var {Given, When, Then} = require('cucumber');
+var {Given, When, Then,Before, BeforeAll, After, AfterAll} = require('cucumber');
+
+BeforeAll(function(){
+        console.log("Inside Before All");
+});
+
+AfterAll(function(){
+
+    console.log("Inside After All");
+
+});
+Before('@dev',function(){
+    console.log("Inside Before hook");
+});
+
+After('@dev',function(){
+
+    console.log("Inside After hook");
+
+});
 
 Given(/^user navigates to facebook website$/, function () {
    
