@@ -9,9 +9,9 @@ Feature: Login
 
     Scenario Outline: In order to verify login to facebook as a Valid user
         
-        Then user entered "valid" username
-        Then user entered "valid" password
-        Then user should "be" successfully logged in
+        Then user entered "<username>" username
+        Then user entered "<password>" password
+        Then user should "<loginstatus>" successfully logged in
 
   Examples:
   | username | password | loginstatus |
